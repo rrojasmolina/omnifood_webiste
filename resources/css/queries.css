@@ -1,0 +1,341 @@
+/*tablets*/
+@media only screen and (min-width: 768px){
+    body {font-size: 20px;}
+    section {padding: 2rem 0;}
+    /*header*/
+    header {height: 70vh;}
+    header .row {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .main-nav {
+        display: flex;
+        justify-content: space-around;
+        /*float: right;*/
+        flex-flow: nowrap;
+        
+       
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        border-bottom: 0.1rem solid transparent;
+        -webkit-transition: border-bottom 0.2s;
+        transition: border-bottom 0.2s;
+    }
+
+    .main-nav li a:hover,
+    .main-nav li a:active {
+        border-bottom: 0.1rem solid #e67e22;
+
+    }
+    
+    
+    .main-nav li {margin-right: 2rem;
+                padding: 0;}
+    
+    .mobile-nav-icon {display: none;}
+    
+    /*Features*/
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;}
+    
+     .section-features{
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .section-features .col {
+        width: 50%;
+        padding-bottom: 1rem;
+    }
+    
+    /*step*/
+    .section-steps .row,
+    .row-steps{
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .col-image {
+        width: 40%;
+        text-align: right;
+    }
+
+    .col-steps {width:60%;
+            padding: 0;
+    }
+
+    .works-step {
+        margin-bottom: 1.0rem;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;  
+    }
+    
+    .app-screen {
+        width: 60%;
+    }
+    
+
+    /* cities */
+    .row-cities {
+        width: 100%;
+
+    }
+     .section-cities .col {
+        width: 25%;
+        padding: 0rem;
+    }
+    
+    
+    /* testimonials*/
+    .row-testimonials {
+        width: 100%;
+    }
+    .row-testimonials .col{
+        width: 33%;
+        padding: 0rem;
+    }
+    
+    /*plans/sign up*/
+    .row-plans {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .row-plans .col {
+        width: 33%;
+        padding: 0.5rem;
+    }
+    
+    /*Contact*/
+    
+    .contact-form .row {
+        display: flex;
+        flex-flow: row;
+}
+    .row-form {
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    .contact-form .row {
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;}
+    
+    .col-label {
+        width: 45%;
+        margin: 0;
+    }
+
+    .col-input {
+        width: 55%;
+        margin: 0;
+    }
+    
+    /*footer*/
+    footer .row {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .col-nav-footer{width: 60%;}
+    .col-social{width: 40%;}
+    
+    .footer-nav{justify-content: flex-start;}
+    .social-links{justify-content: flex-end;}   
+}   
+
+
+/*Desktop*/
+@media only screen and (min-width: 1200px){
+    html {font-size: 20px;}
+    header .row {
+        width: 1200px;
+        margin: 0 auto;
+        /*justify-content: space-around;*/
+    }
+    section {padding-top: 4rem;}
+    header {
+        display: flex;
+        flex-flow: nowrap;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    
+    }
+    
+    header .row {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .main-nav {
+        display: flex;
+        justify-content: space-around;
+        /*float: right;*/
+        flex-flow: nowrap;
+        
+       
+    }
+    
+    .hero-text-box {
+        position: absolute;
+        width: 1140px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    .logo {
+        height: 5rem;
+        width: auto;
+        float: left;
+        margin-left: 12rem;
+    }
+
+    
+    .main-nav li {
+        
+        width: auto;
+        margin-right: 1.1rem;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        border-bottom: 0.1rem solid transparent;
+        -webkit-transition: border-bottom 0.2s;
+        transition: border-bottom 0.2s;
+    }
+
+    .main-nav li a:hover,
+    .main-nav li a:active {
+        border-bottom: 0.1rem solid #e67e22;
+    }
+    
+    .mobile-nav-icon {display: none;}
+    
+    /* features*/
+
+    .long-copy {
+        width: 60%;
+        margin-left: 20%;}
+    
+    .section-features{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .section-features .col {
+        width: 25%;
+        padding: 1rem;
+    }
+    
+    /*steps*/
+    
+    .section-steps .row,
+    .row-steps{
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    .col-image {
+        width: 40%;
+        text-align: right;
+    }
+
+    .col-steps {width:60%;
+            padding: 2rem 2rem;
+    }
+
+    .works-step {
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    
+    }
+    
+    .app-screen {
+        width: 60%;
+    }
+    
+    /* cities */
+    .row-cities {
+        width: 70%;
+        margin-left: 15%;
+    }
+     .section-cities .col {
+        width: 25%;
+        padding: 1rem;
+    }
+    
+    /* testimonials*/
+    .row-testimonials{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .row-testimonials .col{
+        width: 33%;
+        padding: 1rem;
+    }
+    
+    /*plans/sign up*/
+    .row-plans {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .row-plans .col {
+        width: 33%;
+        padding-bottom: 1.5rem;
+    }
+    
+    /*Contact*/
+    .contact-form .row {
+        display: flex;
+        flex-flow: row;
+    }
+    .row-form {
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    .contact-form .row {
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;}
+    
+    .col-label {
+        width: 45%;
+        margin: 0;
+    }
+
+    .col-input {
+        width: 55%;
+        margin: 0;
+    }
+    
+    /*footer*/
+    footer .row {
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    .col-nav-footer{width: 60%;}
+    .col-social{width: 40%;}
+    
+    .footer-nav{justify-content: flex-start;}
+    .social-links{justify-content: flex-end;}
+
+}
+
+
+
+
+
