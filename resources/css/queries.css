@@ -6,7 +6,7 @@
     header {height: 70vh;}
     header .row {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         
     }
     .main-nav {
@@ -155,14 +155,14 @@
 @media only screen and (min-width: 1200px){
     html {font-size: 20px;}
     header .row {
+        display: flex;
         width: 1200px;
         margin: 0 auto;
-        /*justify-content: space-around;*/
+        justify-content: space-around;
     }
     section {padding-top: 4rem;}
     header {
         display: flex;
-        flex-flow: nowrap;
         background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
         background-size: cover;
         background-position: center;
@@ -178,12 +178,12 @@
     }
     .main-nav {
         display: flex;
-        justify-content: space-around;
-        /*float: right;*/
-        flex-flow: nowrap;
+        justify-content: flex-end;
+        width: 80%;
         
-       
     }
+    
+    .main-nav li {padding-right: 3rem;}
     
     .hero-text-box {
         position: absolute;
@@ -196,8 +196,6 @@
     .logo {
         height: 5rem;
         width: auto;
-        float: left;
-        margin-left: 12rem;
     }
 
     
