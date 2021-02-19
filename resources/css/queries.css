@@ -1,7 +1,7 @@
 /*tablets*/
 @media only screen and (min-width: 768px){
     body {font-size: 20px;}
-    section {padding: 2rem 0;}
+    section {padding: 2rem;}
     /*header*/
     header {height: 70vh;}
     header .row {
@@ -39,17 +39,17 @@
     
     /*Features*/
     .long-copy {
-        width: 80%;
-        margin-left: 10%;}
+        width: 70%;
+        margin-left: 15%;}
     
      .section-features{
-        width: 70%;
-        margin-left: 15%;
+        width: 80%;
+        margin-left: 10%;
     }
     
     .section-features .col {
         width: 50%;
-        padding-bottom: 1rem;
+        padding: 1rem;
     }
     
     /*step*/
@@ -84,10 +84,11 @@
     .row-cities {
         width: 100%;
 
+
     }
      .section-cities .col {
         width: 25%;
-        padding: 0rem;
+        padding: 0.5rem;
     }
     
     
@@ -97,18 +98,18 @@
     }
     .row-testimonials .col{
         width: 33%;
-        padding: 0rem;
+        padding: 0.6rem;
     }
     
     /*plans/sign up*/
     .row-plans {
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
+    
     }
 
     .row-plans .col {
         width: 33%;
-        padding: 0.5rem;
+        padding: 0.6rem;
     }
     
     /*Contact*/
@@ -277,8 +278,8 @@
     
     /* testimonials*/
     .row-testimonials{
-        width: 60%;
-        margin-left: 20%;
+        width: 70%;
+        margin-left: 15%;
     }
     .row-testimonials .col{
         width: 33%;
@@ -287,8 +288,8 @@
     
     /*plans/sign up*/
     .row-plans {
-        width: 70%;
-        margin-left: 15%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .row-plans .col {
