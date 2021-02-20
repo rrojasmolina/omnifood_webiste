@@ -77,20 +77,17 @@ fadeInUpObserver.observe(phone);
 
 // Display navigation on mobile
 
-nav_icon.addEventListener('click', function (e) {
-    e.preventDefault();
-    console.log('clicked');
-    nav_icon.classList.add('hidden');
-    nav_close.classList.remove('hidden');
-    nav_menu.classList.remove('hidden');
- }
-    
-)
 
-nav_close.addEventListener('click', function(e){
-        e.preventDefault();
+nav.addEventListener('click', function(e){
+    e.preventDefault();
+    if(e.target.name ==='menu-outline'){
+        nav_icon.classList.add('hidden');
+        nav_close.classList.remove('hidden');
+        nav_menu.classList.remove('hidden');
+    } 
+    if (e.target.name ==='close-outline') {
         nav_icon.classList.remove('hidden');
         nav_close.classList.add('hidden');
         nav_menu.classList.add('hidden');
     }
-)
+});
